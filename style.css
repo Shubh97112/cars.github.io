@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.main
+{
+    padding-top: 50px;
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.types
+{
+    border: 1px solid rgb(224, 17, 17);
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.cars
+{
+    width: 33.3%;
+    height: 100%;
+    color: beige;
+}
+p{
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.sedan
+{
+    background-color: rgb(238, 141, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.suv
+{
+    background-color: rgb(28, 131, 156);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.luxury
+{
+    background-color: rgb(13, 72, 87);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.car{
+    width:100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 25px;
+}
+
+.butt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:120px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: large;
+}
+
+.log
+{ 
+    width: 45px;
+    height: 45px;
+    background-color: beige;
+    opacity: 0.5;
+    border-radius: 50%;
+}
+
+.fa-car{
+    margin-left: 35px;
+    padding-top: 5px;
+    color: black;
+    font-size: x-larger;
+}
+
